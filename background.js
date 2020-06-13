@@ -2,7 +2,7 @@ const body=document.querySelector("body");
 
 const IMG_NUM=12;
 
-function paintImage(){
+function paintImage(number){
     const img=new Image();
     img.src=`background/${number+1}.jpg`;
     img.classList.add("backgroundImg");
